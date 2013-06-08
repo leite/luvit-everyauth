@@ -1,8 +1,11 @@
+
+-- specify types of access: http://bit.ly/14l8zEv, specify returned fields: http://bit.ly/14l8Kjn
+
 local conf = { 
   entry_path    = "/auth/facebook",
   callback_path = "/auth/facebook/callback",
-  scope         = "",   -- specify types of access: See http://developers.facebook.com/docs/authentication/permissions/
-  fields        = "",   -- specify returned fields: See http:/developers.facebook.com/docs/reference/api/user/
+  scope         = "",
+  fields        = "",
   app_id        = "",
   app_secret    = "",
   mobile        = false,
