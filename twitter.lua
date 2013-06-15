@@ -33,7 +33,7 @@ conf.access_token_params = function(self)
 
 conf.user_params = function(self, access_token)
     return {
-        url    = conf.api_host .. '1.1/users/show.json',
+        url    = conf.api_host .. '/1.1/users/show.json',
         params = {access_token = access_token}
       }
   end
